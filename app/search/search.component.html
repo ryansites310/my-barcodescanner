@@ -15,7 +15,10 @@
     <Label class="action-bar-title" text="Search"></Label>
 </ActionBar>
 
-<GridLayout class="page page-content">
-    <Label class="page-icon fa" text="&#xf002;"></Label>
-    <Label class="page-placeholder" text="<!-- Page content goes here -->"></Label>
-</GridLayout>
+<StackLayout orientation="vertical">
+    <ScrollView>
+        <Label text="Application Log" class="label"></Label>
+        <TextView loaded="onTextViewLoaded" text="{{ tvLog }}"  editable="false"
+        class="input input-border"></TextView>
+    </ScrollView>
+</StackLayout>

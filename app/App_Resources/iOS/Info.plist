@@ -40,5 +40,7 @@
 		<string>UIStatusBarStyleLightContent</string>
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false/>
+		<key>NSCameraUsageDescription</key>
+  		<string>Needed to scan QR Codes!</string>
 	</dict>
 </plist>
